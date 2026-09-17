@@ -1,0 +1,23 @@
+variable,definition,unit,allowed_values,notes
+water_system_id,Stable unique identifier for each analytical water-system case.,,Text; unique,Use for joins rather than system name.
+water_system,Human-readable name of the utility/system used as the analytical case.,,Text,Core analytical field.
+source_type,Standardized primary source category for the analytical case.,,great_lake | river_reservoir | reservoir | groundwater | purchased_great_lake,Core analytical field; preserves meaningful source distinctions.
+source_name,Specific source or source-system description.,,Text,Contextual metadata; not the standardized category.
+average_daily_water_use_mgd,Best available measure of typical existing water-system use for the relevant scope.,MGD,Numeric or blank,Core analytical field. Do not substitute broader-system figures for missing plant/district values.
+water_use_year,Reference year for average daily water-use observation.,,YYYY or blank,"Year belongs to the metric, not necessarily the whole row."
+water_use_type,Whether average daily water use is directly reported or calculated.,,reported | derived,Modeled values should be added later as a separate analytical layer.
+water_use_status,Availability/quality status for average daily water use.,,Controlled text,Explains missingness or approximation.
+water_use_source_id,Source ID supporting the water-use value/status.,,Foreign key to sources.source_id,
+treatment_capacity_mgd,Rated/approved/design/peak treatment capacity for the relevant system or plant.,MGD,Numeric or blank,Core analytical field; interpret with capacity_type.
+capacity_year,Reference year for treatment-capacity observation.,,YYYY or blank,
+capacity_type,Original/standardized meaning of the capacity figure.,,treatment_capacity | approved_treatment_capacity | rated_treatment_capacity | design_treatment_capacity | peak_treatment_capacity | not_applicable_distribution_system,Do not relabel unlike capacity concepts.
+capacity_status,Availability/timeliness status for treatment capacity.,,Controlled text,
+capacity_source_id,Source ID supporting treatment capacity.,,Foreign key to sources.source_id,
+served_value,Numeric population/customer scale served by the system.,,Numeric or blank,Core contextual field; compare only alongside served_unit.
+served_unit,Unit represented by served_value.,,people | accounts,People and accounts are not directly comparable.
+served_qualifier,Qualifier attached to served_value.,,exact | approximate | greater_than,Preserves ~ and > without storing them in numeric fields.
+served_year,Reference year for served_value.,,YYYY or blank,
+served_source_id,Source ID supporting served value.,,Foreign key to sources.source_id,
+system_scope,Scope represented by the row and its core metrics.,,Controlled text,"Important for distinguishing treatment plants, distribution PWSs, and regional/system cases."
+research_status,Compact status flag for remaining core-data gaps.,,Controlled text,"Project-management field, not an analytical outcome."
+notes,"Important interpretation, caveats, derivations, and contextual facts retained from research.",,Text,Raw MD remains the authoritative full research record.

@@ -1,0 +1,8 @@
+Facility,Status,Reported capacity (MW),Capacity definition,Capacity scope,Cooling evidence,Water-use evidence,Water-provider evidence
+H5 Cleveland,operating,10.0,utility feed,existing facility utility feeds,closed-loop chilled-water system with economization,No quantitative facility water-use value publicly found,Provider not publicly established
+Aligned NEO-01,operating,96.0,fully built-out power,full buildout,Delta3 air cooling arrays; secondary loops/taps for DeltaFlow liquid cooling,No quantitative facility water-use value publicly found,Provider not publicly established
+Perry Technology Park / Champion Farm,proposed,,,full buildout,closed-loop; air/free cooling,"273,000 gpd maximum allocation",Public water connection; developer identifies Bacon Road water treatment facility as serving Perry Village — system context; exact PWS not independently verified
+Bitdeer Shalersville,proposed,150.0,electrical capacity,Phase 1,closed-loop,"350 gpd, scope-limited",Portage County Water Resources — reported site provider
+Viking Data Centers Akron,operating,150.0,delivered facility electrical power,current operating site,air-cooled,No quantitative facility water-use value publicly found,Provider not publicly established
+Bitdeer Weathersfield / Niles,under development,300.0,grid-interconnected electrical capacity,full development site,closed-loop water cooling,No quantitative facility water-use value publicly found,City of Niles municipal water requested; MVSD identified as ultimate supply — proposed/requested; connection not established
+Bitdeer Massillon,operating,174.0,online electrical capacity,current online site,air cooling; water recirculation reported,No quantitative facility water-use value publicly found,Provider not publicly established

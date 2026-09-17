@@ -1,0 +1,17 @@
+IT capacity (MW),Water-intensity scenario,Water intensity (L/kWh),Modeled water demand (MGD),Modeled annual water demand (MG/year),Modeled annual water demand (BG/year)
+50,Very low water,0.05,0.016,5.8,0.006
+50,Low water,0.2,0.063,23.1,0.023
+50,Moderate water,0.4,0.127,46.3,0.046
+50,Water-intensive cooling,1.5,0.476,173.6,0.174
+150,Very low water,0.05,0.048,17.4,0.017
+150,Low water,0.2,0.19,69.4,0.069
+150,Moderate water,0.4,0.38,138.8,0.139
+150,Water-intensive cooling,1.5,1.427,520.7,0.521
+300,Very low water,0.05,0.095,34.7,0.035
+300,Low water,0.2,0.38,138.8,0.139
+300,Moderate water,0.4,0.761,277.7,0.278
+300,Water-intensive cooling,1.5,2.853,1041.4,1.041
+750,Very low water,0.05,0.238,86.8,0.087
+750,Low water,0.2,0.951,347.1,0.347
+750,Moderate water,0.4,1.902,694.2,0.694
+750,Water-intensive cooling,1.5,7.133,2603.4,2.603

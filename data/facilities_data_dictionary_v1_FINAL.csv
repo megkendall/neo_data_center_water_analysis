@@ -1,0 +1,34 @@
+field,type,definition,rules_notes
+facility_id,string,Stable unique facility/project identifier.,Required; FAC###.
+facility_name,string,Canonical facility/project name.,Required.
+county,string,Ohio county or counties containing the project.,Use slash only for genuine multi-county projects.
+municipality,string,Municipality/township used for geographic context.,Preserve township when relevant.
+operator_developer,string,Named operator and/or developer.,Blank if genuinely unidentified.
+status,categorical,Standardized project status.,operating; under construction; proposed; under development; withdrawn; rejected.
+status_detail,string,Important status nuance not captured by controlled status.,"E.g., expansion, litigation, annexation."
+status_as_of,date,Date the volatile status observation applies to.,ISO YYYY-MM-DD.
+inventory_role,categorical,Role in project dataset.,analytical_case; regional_inventory; historical_comparison.
+workload,string,Reported/known computing use.,Do not infer AI from generic data-center label.
+capacity_mw,number,Selected MW observation used to describe facility scale.,Blank when no defensible MW exists.
+capacity_type,categorical/string,What the MW measures.,Examples: critical IT load; facility power; utility feed; online electrical capacity; grid-interconnected electrical capacity.
+capacity_scope,string,Project boundary/time scope of MW value.,Examples: current site; Phase 1; full buildout.
+capacity_value_status,categorical,Evidence/quality status of capacity value.,reported; reported_secondary; approximate_reported; approximate_unverified; missing.
+capacity_qualifier,string,Required caveat or alternate capacity observation.,Never silently reconcile non-equivalent MW values.
+cooling_type_reported,string,Facility-specific publicly reported cooling configuration.,Blank if not established.
+cooling_value_status,categorical/string,Evidence status for cooling field.,reported; reported_secondary; reported_scope_limited; not publicly found; not applicable.
+avg_annual_water_value,number,"Reported average daily or annual facility water value, stored in its reported unit.",Do not model/fill missing facility values.
+avg_annual_water_unit,string,Unit for avg/annual water value.,Examples: gpd; gal/year.
+avg_annual_water_availability,categorical,Why avg/annual water value is present/absent.,reported; reported_scope_limited; not publicly found; not applicable.
+peak_max_water_value,number,"Reported peak, maximum, or allocation water value.",Metric must be specified separately.
+peak_max_water_unit,string,Unit for peak/max value.,Typically gpd here.
+peak_max_water_metric,string,Meaning of peak/max number.,"E.g., maximum allocation for all facility water uses."
+peak_max_water_availability,categorical,Why peak/max water value is present/absent.,reported; not publicly found; not applicable.
+wue_value,number,Facility-specific reported WUE.,Blank unless publicly reported.
+wue_unit,string,WUE unit.,Expected future standard: L/kWh where applicable.
+wue_availability,categorical,Why WUE is present/absent.,reported; not publicly found; not applicable.
+water_provider_reported,string,Publicly reported/requested facility water provider or service relationship.,Keep proposed/requested relationships qualified.
+water_source_reported,string,Reported ultimate source-water context tied to facility service.,Do not infer from geography alone.
+water_provider_availability,categorical/string,Evidence status for provider/source join.,Use a qualified reported/proposed state where evidence exists; otherwise not publicly found or not applicable. No 'not researched' or 'not yet verified' terminal states.
+reclaimed_recycled_reported,string,"Reported recirculation, reclaimed-water, or recycled-water information.",Closed-loop recirculation is not equivalent to reclaimed-water supply.
+primary_source_ids,string,Semicolon-separated source IDs linking to facilities_sources.csv.,May be blank for weak discovery-only records.
+notes,string,Context needed to preserve non-core facts or conflicts.,Audit/supporting field; not intended as primary analytical input.

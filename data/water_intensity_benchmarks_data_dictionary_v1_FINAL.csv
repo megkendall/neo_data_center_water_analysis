@@ -1,0 +1,28 @@
+column,definition,unit,format,allowed_or_example_values,interpretation_rule
+benchmark_id,Stable benchmark observation identifier,,String,BM###,One row is one observation/year/scope.
+operator,Data-center operator/developer,,String,,
+facility_region,"Named facility, region, or portfolio subset",,String,,
+location,Geographic scope,,String,,Do not infer climate class from this field without a separate method.
+observation_year,Calendar/fiscal/design year represented,year,Integer,YYYY,Fiscal-year observations are explained in notes/source.
+observation_scope,Boundary of observation,,Categorical,facility; region; fleet; portfolio_subset; facility_design; campus_projected,Critical comparability field.
+water_metric,Type of water quantity represented,,Categorical,withdrawal; cooling_humidification; site_water_use; cooling; water_demand,Do not treat these categories as interchangeable.
+water_scope,Plain-language numerator scope,,String,,Preserves operator-specific definitions.
+water_value,Original reported absolute water quantity where available,row-specific,Numeric,,Blank when only normalized WUE is disclosed.
+water_unit,Unit for water_value,row-specific,String,,
+energy_value,Original reported energy denominator where available,row-specific,Numeric,,
+energy_unit,Unit for energy_value,row-specific,String,,
+energy_scope,Meaning of energy denominator,,Categorical,IT_energy; total_facility_energy,Standard WUE requires IT energy.
+intensity_l_kwh,Reported or defensibly derived normalized water intensity,L/kWh,Numeric,,Interpret only with intensity_basis and intensity_denominator.
+intensity_basis,Water concept represented by intensity,,Categorical,withdrawal; cooling_humidification; site_water_use; cooling_water,Operator WUE retained when exact withdrawal/consumption semantics are not harmonized.
+intensity_denominator,Energy basis for intensity,,Categorical,IT_energy; total_facility_energy,Never silently convert total facility energy to IT energy.
+intensity_status,Evidence status of intensity,,Categorical,reported; derived; reported_design; reported_projected,Derived values use only same-scope reported inputs.
+operational_status,Whether observation is measured operation or projected/design,,Categorical,operational; design_projected,Design claims stay separate from measured observations.
+cooling_category,Cooling/design category supported by source,,String,,Do not infer missing cooling type.
+water_source_type,Potable/reclaimed/groundwater/etc. when explicitly supported,,String,,Blank means not established for this observation.
+pue_value,Reported PUE for same observation scope/year when available,ratio,Numeric,,Context only; do not use generic/fleet PUE to manufacture facility IT energy.
+peak_water_value,Reported/projected peak water quantity,row-specific,Numeric,,Kept separate from annual/average WUE.
+peak_water_unit,Unit for peak_water_value,row-specific,String,,
+peak_water_metric,Meaning of peak figure,,String,,
+analytical_status,Role in benchmark analysis,,Categorical,core; core_derived; design_boundary; contextual; excluded,Core_derived observations are not automatically commensurate with standard WUE.
+source_ids,Source foreign keys,,Semicolon-separated string,SRC###,Links to benchmark_sources_v1.csv.
+notes,Essential comparability caveats and derivation notes,,Free text,,

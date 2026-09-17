@@ -1,0 +1,113 @@
+IT capacity (MW),Water-intensity scenario,Water intensity (L/kWh),Modeled water demand (MGD),Modeled annual water demand (MG/year),Modeled annual water demand (BG/year),water_system_id,water_system,treatment_capacity_mgd,capacity_status,pct_treatment_capacity
+50,Very low water,0.05,0.015850325000000002,5.785368625,0.0057853686250000005,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.0029352453703703706
+50,Very low water,0.05,0.015850325000000002,5.785368625,0.0057853686250000005,AKR_WATER,City of Akron Water Supply,67.0,available,0.023657201492537316
+50,Very low water,0.05,0.015850325000000002,5.785368625,0.0057853686250000005,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,0.026417208333333338
+50,Very low water,0.05,0.015850325000000002,5.785368625,0.0057853686250000005,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+50,Very low water,0.05,0.015850325000000002,5.785368625,0.0057853686250000005,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,0.17611472222222224
+50,Very low water,0.05,0.015850325000000002,5.785368625,0.0057853686250000005,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,0.39625812500000007
+50,Very low water,0.05,0.015850325000000002,5.785368625,0.0057853686250000005,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,0.03602346590909092
+50,Low water,0.2,0.06340130000000001,23.1414745,0.023141474500000002,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.011740981481481482
+50,Low water,0.2,0.06340130000000001,23.1414745,0.023141474500000002,AKR_WATER,City of Akron Water Supply,67.0,available,0.09462880597014926
+50,Low water,0.2,0.06340130000000001,23.1414745,0.023141474500000002,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,0.10566883333333335
+50,Low water,0.2,0.06340130000000001,23.1414745,0.023141474500000002,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+50,Low water,0.2,0.06340130000000001,23.1414745,0.023141474500000002,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,0.704458888888889
+50,Low water,0.2,0.06340130000000001,23.1414745,0.023141474500000002,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,1.5850325000000003
+50,Low water,0.2,0.06340130000000001,23.1414745,0.023141474500000002,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,0.14409386363636367
+50,Moderate water,0.4,0.12680260000000002,46.282949,0.046282949000000004,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.023481962962962965
+50,Moderate water,0.4,0.12680260000000002,46.282949,0.046282949000000004,AKR_WATER,City of Akron Water Supply,67.0,available,0.18925761194029853
+50,Moderate water,0.4,0.12680260000000002,46.282949,0.046282949000000004,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,0.2113376666666667
+50,Moderate water,0.4,0.12680260000000002,46.282949,0.046282949000000004,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+50,Moderate water,0.4,0.12680260000000002,46.282949,0.046282949000000004,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,1.408917777777778
+50,Moderate water,0.4,0.12680260000000002,46.282949,0.046282949000000004,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,3.1700650000000006
+50,Moderate water,0.4,0.12680260000000002,46.282949,0.046282949000000004,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,0.28818772727272735
+50,Water-intensive cooling,1.5,0.47550975,173.56105875,0.17356105875,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.08805736111111111
+50,Water-intensive cooling,1.5,0.47550975,173.56105875,0.17356105875,AKR_WATER,City of Akron Water Supply,67.0,available,0.7097160447761195
+50,Water-intensive cooling,1.5,0.47550975,173.56105875,0.17356105875,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,0.7925162500000001
+50,Water-intensive cooling,1.5,0.47550975,173.56105875,0.17356105875,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+50,Water-intensive cooling,1.5,0.47550975,173.56105875,0.17356105875,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,5.283441666666667
+50,Water-intensive cooling,1.5,0.47550975,173.56105875,0.17356105875,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,11.88774375
+50,Water-intensive cooling,1.5,0.47550975,173.56105875,0.17356105875,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,1.0807039772727274
+150,Very low water,0.05,0.047550975,17.356105875,0.017356105875,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.008805736111111111
+150,Very low water,0.05,0.047550975,17.356105875,0.017356105875,AKR_WATER,City of Akron Water Supply,67.0,available,0.07097160447761194
+150,Very low water,0.05,0.047550975,17.356105875,0.017356105875,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,0.079251625
+150,Very low water,0.05,0.047550975,17.356105875,0.017356105875,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+150,Very low water,0.05,0.047550975,17.356105875,0.017356105875,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,0.5283441666666667
+150,Very low water,0.05,0.047550975,17.356105875,0.017356105875,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,1.1887743750000002
+150,Very low water,0.05,0.047550975,17.356105875,0.017356105875,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,0.10807039772727273
+150,Low water,0.2,0.1902039,69.4244235,0.0694244235,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.035222944444444446
+150,Low water,0.2,0.1902039,69.4244235,0.0694244235,AKR_WATER,City of Akron Water Supply,67.0,available,0.2838864179104478
+150,Low water,0.2,0.1902039,69.4244235,0.0694244235,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,0.3170065
+150,Low water,0.2,0.1902039,69.4244235,0.0694244235,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+150,Low water,0.2,0.1902039,69.4244235,0.0694244235,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,2.113376666666667
+150,Low water,0.2,0.1902039,69.4244235,0.0694244235,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,4.755097500000001
+150,Low water,0.2,0.1902039,69.4244235,0.0694244235,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,0.4322815909090909
+150,Moderate water,0.4,0.3804078,138.848847,0.138848847,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.07044588888888889
+150,Moderate water,0.4,0.3804078,138.848847,0.138848847,AKR_WATER,City of Akron Water Supply,67.0,available,0.5677728358208955
+150,Moderate water,0.4,0.3804078,138.848847,0.138848847,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,0.634013
+150,Moderate water,0.4,0.3804078,138.848847,0.138848847,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+150,Moderate water,0.4,0.3804078,138.848847,0.138848847,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,4.226753333333334
+150,Moderate water,0.4,0.3804078,138.848847,0.138848847,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,9.510195000000001
+150,Moderate water,0.4,0.3804078,138.848847,0.138848847,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,0.8645631818181818
+150,Water-intensive cooling,1.5,1.42652925,520.68317625,0.5206831762499999,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.2641720833333333
+150,Water-intensive cooling,1.5,1.42652925,520.68317625,0.5206831762499999,AKR_WATER,City of Akron Water Supply,67.0,available,2.1291481343283585
+150,Water-intensive cooling,1.5,1.42652925,520.68317625,0.5206831762499999,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,2.3775487500000003
+150,Water-intensive cooling,1.5,1.42652925,520.68317625,0.5206831762499999,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+150,Water-intensive cooling,1.5,1.42652925,520.68317625,0.5206831762499999,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,15.850324999999998
+150,Water-intensive cooling,1.5,1.42652925,520.68317625,0.5206831762499999,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,35.66323125
+150,Water-intensive cooling,1.5,1.42652925,520.68317625,0.5206831762499999,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,3.242111931818182
+300,Very low water,0.05,0.09510195,34.71221175,0.03471221175,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.017611472222222223
+300,Very low water,0.05,0.09510195,34.71221175,0.03471221175,AKR_WATER,City of Akron Water Supply,67.0,available,0.1419432089552239
+300,Very low water,0.05,0.09510195,34.71221175,0.03471221175,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,0.15850325
+300,Very low water,0.05,0.09510195,34.71221175,0.03471221175,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+300,Very low water,0.05,0.09510195,34.71221175,0.03471221175,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,1.0566883333333335
+300,Very low water,0.05,0.09510195,34.71221175,0.03471221175,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,2.3775487500000003
+300,Very low water,0.05,0.09510195,34.71221175,0.03471221175,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,0.21614079545454545
+300,Low water,0.2,0.3804078,138.848847,0.138848847,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.07044588888888889
+300,Low water,0.2,0.3804078,138.848847,0.138848847,AKR_WATER,City of Akron Water Supply,67.0,available,0.5677728358208955
+300,Low water,0.2,0.3804078,138.848847,0.138848847,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,0.634013
+300,Low water,0.2,0.3804078,138.848847,0.138848847,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+300,Low water,0.2,0.3804078,138.848847,0.138848847,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,4.226753333333334
+300,Low water,0.2,0.3804078,138.848847,0.138848847,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,9.510195000000001
+300,Low water,0.2,0.3804078,138.848847,0.138848847,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,0.8645631818181818
+300,Moderate water,0.4,0.7608156,277.697694,0.277697694,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.14089177777777778
+300,Moderate water,0.4,0.7608156,277.697694,0.277697694,AKR_WATER,City of Akron Water Supply,67.0,available,1.135545671641791
+300,Moderate water,0.4,0.7608156,277.697694,0.277697694,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,1.268026
+300,Moderate water,0.4,0.7608156,277.697694,0.277697694,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+300,Moderate water,0.4,0.7608156,277.697694,0.277697694,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,8.453506666666668
+300,Moderate water,0.4,0.7608156,277.697694,0.277697694,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,19.020390000000003
+300,Moderate water,0.4,0.7608156,277.697694,0.277697694,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,1.7291263636363636
+300,Water-intensive cooling,1.5,2.8530585,1041.3663525,1.0413663524999999,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.5283441666666666
+300,Water-intensive cooling,1.5,2.8530585,1041.3663525,1.0413663524999999,AKR_WATER,City of Akron Water Supply,67.0,available,4.258296268656717
+300,Water-intensive cooling,1.5,2.8530585,1041.3663525,1.0413663524999999,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,4.755097500000001
+300,Water-intensive cooling,1.5,2.8530585,1041.3663525,1.0413663524999999,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+300,Water-intensive cooling,1.5,2.8530585,1041.3663525,1.0413663524999999,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,31.700649999999996
+300,Water-intensive cooling,1.5,2.8530585,1041.3663525,1.0413663524999999,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,71.3264625
+300,Water-intensive cooling,1.5,2.8530585,1041.3663525,1.0413663524999999,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,6.484223863636364
+750,Very low water,0.05,0.237754875,86.780529375,0.086780529375,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.044028680555555554
+750,Very low water,0.05,0.237754875,86.780529375,0.086780529375,AKR_WATER,City of Akron Water Supply,67.0,available,0.35485802238805975
+750,Very low water,0.05,0.237754875,86.780529375,0.086780529375,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,0.39625812500000007
+750,Very low water,0.05,0.237754875,86.780529375,0.086780529375,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+750,Very low water,0.05,0.237754875,86.780529375,0.086780529375,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,2.6417208333333333
+750,Very low water,0.05,0.237754875,86.780529375,0.086780529375,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,5.943871875
+750,Very low water,0.05,0.237754875,86.780529375,0.086780529375,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,0.5403519886363637
+750,Low water,0.2,0.9510195,347.1221175,0.3471221175,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.17611472222222221
+750,Low water,0.2,0.9510195,347.1221175,0.3471221175,AKR_WATER,City of Akron Water Supply,67.0,available,1.419432089552239
+750,Low water,0.2,0.9510195,347.1221175,0.3471221175,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,1.5850325000000003
+750,Low water,0.2,0.9510195,347.1221175,0.3471221175,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+750,Low water,0.2,0.9510195,347.1221175,0.3471221175,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,10.566883333333333
+750,Low water,0.2,0.9510195,347.1221175,0.3471221175,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,23.7754875
+750,Low water,0.2,0.9510195,347.1221175,0.3471221175,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,2.1614079545454548
+750,Moderate water,0.4,1.902039,694.244235,0.694244235,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,0.35222944444444443
+750,Moderate water,0.4,1.902039,694.244235,0.694244235,AKR_WATER,City of Akron Water Supply,67.0,available,2.838864179104478
+750,Moderate water,0.4,1.902039,694.244235,0.694244235,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,3.1700650000000006
+750,Moderate water,0.4,1.902039,694.244235,0.694244235,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+750,Moderate water,0.4,1.902039,694.244235,0.694244235,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,21.133766666666666
+750,Moderate water,0.4,1.902039,694.244235,0.694244235,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,47.550975
+750,Moderate water,0.4,1.902039,694.244235,0.694244235,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,4.3228159090909095
+750,Water-intensive cooling,1.5,7.1326462500000005,2603.41588125,2.60341588125,CLE_WATER,Cleveland Division of Water / Cleveland Water,540.0,available_source_pending,1.3208604166666666
+750,Water-intensive cooling,1.5,7.1326462500000005,2603.41588125,2.60341588125,AKR_WATER,City of Akron Water Supply,67.0,available,10.645740671641791
+750,Water-intensive cooling,1.5,7.1326462500000005,2603.41588125,2.60341588125,MVSD,Mahoning Valley Sanitary District (MVSD),60.0,available,11.88774375
+750,Water-intensive cooling,1.5,7.1326462500000005,2603.41588125,2.60341588125,ERIE_PERKINS,Erie County Water Division — Perkins District (OH2200603),,not_applicable,
+750,Water-intensive cooling,1.5,7.1326462500000005,2603.41588125,2.60341588125,LAKE_BACON,Lake County Department of Utilities — East Sub-District / Bacon Road WTP,9.0,available,79.251625
+750,Water-intensive cooling,1.5,7.1326462500000005,2603.41588125,2.60341588125,PORT_SHALERSVILLE,Portage County Water Resources — Shalersville system,4.0,available,178.31615625
+750,Water-intensive cooling,1.5,7.1326462500000005,2603.41588125,2.60341588125,CANTON_WATER,City of Canton Water Department,44.0,available_older_source,16.210559659090908

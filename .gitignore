@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+ENV/
+
+# Python bytecode/caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment/secrets
+.env
+.env.*
+*.pem
+
+# Editor/OS cruft
+.vscode/
+*.swp
+
+# Local scratch/draft material kept out of the public repo
+_archive_not_for_publish/
